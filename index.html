@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check List App </title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title"> Insert Item to the List...</h1>
+        <div class="form">
+          <input id="newText" type="text" placeholder="Type Item" />
+          <button id="newBtn">Add to List</button>
+        </div>
+        <h5>When the item is complete, click the button to mark as "Item Completed".</h5>
+      </div>
+      <div class="list">
+        <div class="pendings">
+          <h3>Pendings:</h3>
+          <ul id="pendingList"></ul>
+        </div>
+        <div class="completed">
+          <h3>Item Completed:</h3>
+          <ul id="completedList"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
